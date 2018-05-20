@@ -5,8 +5,8 @@ board.each do |turn|
   while counter <= 9
     puts "This is turn #{counter}"
   counter += 1
+  end
 end
-
 #current_player
 
 
