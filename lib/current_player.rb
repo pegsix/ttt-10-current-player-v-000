@@ -2,11 +2,11 @@ turn_count
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 counter = 0
 turn.each do |turn|
-  if input == "X" || "O"
+  if turn == "X" || "O"
   counter += 1
 end
 
-current_player
+#current_player
 
 
 
