@@ -8,3 +8,5 @@ board.each do
   puts "this is turn number #{counter}"
   end
 end
+
+turn_count
