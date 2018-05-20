@@ -1,8 +1,8 @@
 def turn_count
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
 counter = 0
 board.each do
-  if board != " "
+  while board != " "
   counter += 1
   end
 end
