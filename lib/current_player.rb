@@ -10,7 +10,7 @@ counter
 end
 
 def current_player
-  if turn_count(counter) % 2 == 0
+  if counter % 2 == 0
     "X"
   else
     "O"
