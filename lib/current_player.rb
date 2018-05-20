@@ -4,7 +4,6 @@ counter = 0
 board.each do
   if board != " "
   counter += 1
-  end
 end
 #current_player
 
