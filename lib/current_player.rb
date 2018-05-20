@@ -9,7 +9,7 @@ end
 counter
 end
 
-def current_player(board)
+def current_player(counter)
   if turn_count % 2 == 0
     "X"
   else
