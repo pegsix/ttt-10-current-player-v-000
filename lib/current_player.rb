@@ -6,4 +6,3 @@ board.each do |check|
   counter += 1
   puts "it's turn #{counter}"
   end
-end
