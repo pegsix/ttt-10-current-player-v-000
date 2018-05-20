@@ -5,6 +5,6 @@ counter = 0
 board.each do
      if board == "X" || board == "O"
   counter += 1
-  puts "You're on turn #{counter}"
+   "You're on turn #{counter}"
   end
 end
